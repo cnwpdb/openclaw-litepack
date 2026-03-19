@@ -20,6 +20,11 @@ Thumbs.db
 .idea/
 .vscode/
 
+# WeChat article (local-only)
+公众号爆款文案.md
+assets/wechat-cover.svg
+assets/README.md
+
 # Build artifacts / binaries
 *.zip
 *.7z
