@@ -1,0 +1,64 @@
+# Secrets
+.env
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+
+# Logs / crash / temp
+*.log
+*.tmp
+hs_err_pid*.log
+replay_pid*.log
+error.log
+error.txt
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Build artifacts / binaries
+*.zip
+*.7z
+*.rar
+*.exe
+*.dll
+*.pyd
+*.pyc
+*.obj
+*.so
+*.dylib
+*.msi
+
+# Local runtime bundles
+env/
+node-v*-win-x64/
+chrome-win64.zip
+OpenClaw*.zip
+openclaw-main.zip
+
+# Release / backup / temp work dirs
+release/
+backup_v_old/
+.tmp*/
+__deferred_v2/
+
+# Runtime data
+openclaw_data/
+.webui-font-scale
+
+# App dependency caches
+openclaw_app/node_modules/
+openclaw_app/dist/
+openclaw_app/.browser_cache/
+openclaw_app/.npm-cache/
+openclaw_app/.turbo/
+openclaw_app/.next/
+
+# Manager dependency/build dirs
+openclaw-manager/node_modules/
+openclaw-manager/src-tauri/target/
+openclaw-manager/target/
