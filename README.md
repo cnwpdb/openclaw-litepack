@@ -22,6 +22,11 @@
 4. 首次配置 `.env` 中的必要参数（如 API Key）。
 5. 首发版暂不提供升级脚本，升级方案将在第二版发布。
 
+## 下载入口
+
+- 最新版本（推荐）：https://github.com/cnwpdb/openclaw-litepack/releases/latest
+- 全部版本列表：https://github.com/cnwpdb/openclaw-litepack/releases
+
 ## 目录说明（发布包）
 
 ```text
@@ -62,4 +67,4 @@ Compress-Archive -Path .\release\OpenClaw-openclaw-2026.3.13-build-2026.03.15-sk
 
 ## 许可证
 
-本仓库建议明确添加 `LICENSE`（例如 MIT）后再公开。
+本仓库建议明确添加 `LICENSE`（例如 MIT）后再公开.
